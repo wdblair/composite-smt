@@ -1,0 +1,753 @@
+./QF_LIA/rings_preprocessed/ring_2exp6_8vars_3ite_unsat.smt
+unsat
+
+real	2m49.976s
+user	2m49.748s
+sys	0m0.010s
+169.74user 0.01system 2:49.97elapsed 99%CPU (0avgtext+0avgdata 26352maxresident)k
+0inputs+24outputs (0major+2060minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_8vars_1ite_unsat.smt
+unknown
+
+real	10m0.008s
+user	9m59.224s
+sys	0m0.019s
+599.22user 0.02system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 60592maxresident)k
+0inputs+8outputs (0major+4480minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_8vars_5ite_unsat.smt
+unknown
+
+real	10m0.015s
+user	9m59.201s
+sys	0m0.037s
+599.20user 0.03system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 67568maxresident)k
+0inputs+8outputs (0major+4833minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_5vars_4ite_unsat.smt
+unsat
+
+real	0m0.831s
+user	0m0.828s
+sys	0m0.002s
+0.82user 0.00system 0:00.83elapsed 99%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+8outputs (0major+712minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp12_7vars_6ite_unsat.smt
+unknown
+
+real	10m0.013s
+user	9m59.205s
+sys	0m0.025s
+599.20user 0.02system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 74688maxresident)k
+0inputs+8outputs (0major+5082minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_8vars_4ite_unsat.smt
+unknown
+
+real	10m0.009s
+user	9m59.202s
+sys	0m0.025s
+599.20user 0.02system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 86736maxresident)k
+0inputs+8outputs (0major+5836minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp16_5vars_3ite_unsat.smt
+unsat
+
+real	0m1.097s
+user	0m1.094s
+sys	0m0.001s
+1.09user 0.00system 0:01.09elapsed 99%CPU (0avgtext+0avgdata 5008maxresident)k
+0inputs+0outputs (0major+725minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp14_8vars_1ite_unsat.smt
+unknown
+
+real	10m0.010s
+user	9m59.085s
+sys	0m0.136s
+599.08user 0.13system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 60928maxresident)k
+0inputs+8outputs (0major+4222minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_7vars_1ite_unsat.smt
+unsat
+
+real	0m0.005s
+user	0m0.003s
+sys	0m0.002s
+0.00user 0.00system 0:00.00elapsed 71%CPU (0avgtext+0avgdata 4928maxresident)k
+0inputs+0outputs (0major+674minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_5vars_0ite_unsat.smt
+unsat
+
+real	0m0.004s
+user	0m0.003s
+sys	0m0.001s
+0.00user 0.00system 0:00.00elapsed 50%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+652minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_7vars_6ite_unsat.smt
+unknown
+
+real	10m0.015s
+user	9m59.204s
+sys	0m0.037s
+599.20user 0.03system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 91456maxresident)k
+0inputs+8outputs (0major+6372minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_9vars_2ite_unsat.smt
+unknown
+
+real	10m0.011s
+user	9m59.198s
+sys	0m0.032s
+599.19user 0.03system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 61568maxresident)k
+0inputs+8outputs (0major+4286minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_3vars_0ite_unsat.smt
+unsat
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.001s
+0.00user 0.00system 0:00.00elapsed 60%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+643minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_9vars_8ite_unsat.smt
+unknown
+
+real	10m0.017s
+user	9m59.113s
+sys	0m0.058s
+599.11user 0.05system 10:00.02elapsed 99%CPU (0avgtext+0avgdata 77232maxresident)k
+0inputs+8outputs (0major+5242minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_9vars_1ite_unsat.smt
+unknown
+
+real	10m0.012s
+user	9m58.351s
+sys	0m0.029s
+598.35user 0.03system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 55680maxresident)k
+0inputs+8outputs (0major+3893minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp16_6vars_5ite_unsat.smt
+unsat
+
+real	0m42.631s
+user	0m42.570s
+sys	0m0.007s
+42.56user 0.00system 0:42.63elapsed 99%CPU (0avgtext+0avgdata 14160maxresident)k
+0inputs+8outputs (0major+1298minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp14_4vars_0ite_unsat.smt
+unsat
+
+real	0m0.001s
+user	0m0.002s
+sys	0m0.000s
+0.00user 0.00system 0:00.00elapsed 50%CPU (0avgtext+0avgdata 4928maxresident)k
+0inputs+0outputs (0major+649minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp6_7vars_5ite_unsat.smt
+unsat
+
+real	3m23.150s
+user	3m22.790s
+sys	0m0.006s
+202.79user 0.00system 3:23.16elapsed 99%CPU (0avgtext+0avgdata 31680maxresident)k
+0inputs+16outputs (0major+2393minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp16_7vars_2ite_unsat.smt
+unsat
+
+real	4m33.395s
+user	4m33.038s
+sys	0m0.010s
+273.03user 0.01system 4:33.39elapsed 99%CPU (0avgtext+0avgdata 33824maxresident)k
+0inputs+8outputs (0major+2527minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_9vars_4ite_unsat.smt
+unknown
+
+real	10m0.011s
+user	9m59.246s
+sys	0m0.018s
+599.24user 0.01system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 70944maxresident)k
+0inputs+16outputs (0major+4849minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_7vars_0ite_unsat.smt
+unsat
+
+real	0m0.004s
+user	0m0.002s
+sys	0m0.001s
+0.00user 0.00system 0:00.00elapsed 50%CPU (0avgtext+0avgdata 4928maxresident)k
+0inputs+0outputs (0major+664minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_9vars_0ite_unsat.smt
+unsat
+
+real	0m0.006s
+user	0m0.005s
+sys	0m0.002s
+0.00user 0.00system 0:00.00elapsed 71%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+685minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_6vars_3ite_unsat.smt
+unsat
+
+real	0m16.756s
+user	0m16.731s
+sys	0m0.004s
+16.73user 0.00system 0:16.75elapsed 99%CPU (0avgtext+0avgdata 8944maxresident)k
+0inputs+16outputs (0major+973minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp6_7vars_1ite_unsat.smt
+unsat
+
+real	0m57.865s
+user	0m57.759s
+sys	0m0.011s
+57.75user 0.01system 0:57.86elapsed 99%CPU (0avgtext+0avgdata 15600maxresident)k
+0inputs+8outputs (0major+1388minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp6_9vars_3ite_unsat.smt
+unsat
+
+real	2m44.368s
+user	2m44.146s
+sys	0m0.015s
+164.14user 0.01system 2:44.37elapsed 99%CPU (0avgtext+0avgdata 25360maxresident)k
+0inputs+16outputs (0major+1999minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_6vars_5ite_unsat.smt
+unsat
+
+real	0m38.336s
+user	0m38.283s
+sys	0m0.005s
+38.28user 0.00system 0:38.33elapsed 99%CPU (0avgtext+0avgdata 14144maxresident)k
+0inputs+8outputs (0major+1298minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp14_7vars_3ite_unsat.smt
+unsat
+
+real	4m14.879s
+user	4m14.554s
+sys	0m0.005s
+254.55user 0.00system 4:14.88elapsed 99%CPU (0avgtext+0avgdata 34032maxresident)k
+0inputs+16outputs (0major+2542minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_4vars_0ite_unsat.smt
+unsat
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+0.00user 0.00system 0:00.00elapsed 40%CPU (0avgtext+0avgdata 4928maxresident)k
+0inputs+0outputs (0major+648minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp14_7vars_0ite_unsat.smt
+unsat
+
+real	0m0.005s
+user	0m0.004s
+sys	0m0.000s
+0.00user 0.00system 0:00.00elapsed 57%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+662minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_4vars_2ite_unsat.smt
+unsat
+
+real	0m0.064s
+user	0m0.063s
+sys	0m0.001s
+0.06user 0.00system 0:00.06elapsed 95%CPU (0avgtext+0avgdata 4928maxresident)k
+0inputs+0outputs (0major+683minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_7vars_3ite_unsat.smt
+unsat
+
+real	5m49.828s
+user	5m49.237s
+sys	0m0.020s
+349.23user 0.02system 5:49.83elapsed 99%CPU (0avgtext+0avgdata 34032maxresident)k
+0inputs+16outputs (0major+2540minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_8vars_4ite_unsat.smt
+unknown
+
+real	10m0.012s
+user	9m58.825s
+sys	0m0.157s
+598.82user 0.15system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 57104maxresident)k
+0inputs+8outputs (0major+3984minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp12_7vars_0ite_unsat.smt
+unsat
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+0.00user 0.00system 0:00.00elapsed 33%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+663minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_7vars_3ite_unsat.smt
+unsat
+
+real	5m27.639s
+user	5m26.967s
+sys	0m0.032s
+326.96user 0.03system 5:27.64elapsed 99%CPU (0avgtext+0avgdata 34032maxresident)k
+0inputs+16outputs (0major+2541minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp12_3vars_0ite_unsat.smt
+unsat
+
+real	0m0.001s
+user	0m0.000s
+sys	0m0.002s
+0.00user 0.00system 0:00.00elapsed 50%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+643minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_9vars_2ite_unsat.smt
+unsat
+
+real	0m1.525s
+user	0m1.521s
+sys	0m0.001s
+1.52user 0.00system 0:01.52elapsed 99%CPU (0avgtext+0avgdata 5264maxresident)k
+0inputs+0outputs (0major+742minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp16_9vars_6ite_unsat.smt
+unknown
+
+real	10m0.010s
+user	9m59.019s
+sys	0m0.049s
+599.01user 0.04system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 67024maxresident)k
+0inputs+8outputs (0major+4603minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_8vars_0ite_unsat.smt
+unsat
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.002s
+0.00user 0.00system 0:00.00elapsed 33%CPU (0avgtext+0avgdata 4928maxresident)k
+0inputs+0outputs (0major+669minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_3vars_2ite_unsat.smt
+unsat
+
+real	0m0.005s
+user	0m0.005s
+sys	0m0.001s
+0.00user 0.00system 0:00.00elapsed 66%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+659minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_8vars_6ite_unsat.smt
+unknown
+
+real	10m0.006s
+user	9m58.991s
+sys	0m0.044s
+598.99user 0.04system 10:00.00elapsed 99%CPU (0avgtext+0avgdata 71920maxresident)k
+0inputs+8outputs (0major+4908minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp12_9vars_2ite_unsat.smt
+unknown
+
+real	10m0.010s
+user	9m58.994s
+sys	0m0.020s
+598.99user 0.02system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 58400maxresident)k
+0inputs+16outputs (0major+4064minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_3vars_1ite_unsat.smt
+unsat
+
+real	0m0.005s
+user	0m0.004s
+sys	0m0.002s
+0.00user 0.00system 0:00.00elapsed 66%CPU (0avgtext+0avgdata 4928maxresident)k
+0inputs+0outputs (0major+657minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp16_5vars_0ite_unsat.smt
+unsat
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+0.00user 0.00system 0:00.00elapsed 33%CPU (0avgtext+0avgdata 4928maxresident)k
+0inputs+0outputs (0major+654minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp14_7vars_1ite_unsat.smt
+unsat
+
+real	3m51.487s
+user	3m51.068s
+sys	0m0.018s
+231.06user 0.01system 3:51.48elapsed 99%CPU (0avgtext+0avgdata 28048maxresident)k
+0inputs+8outputs (0major+2167minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_8vars_3ite_unsat.smt
+unsat
+
+real	0m1.567s
+user	0m1.561s
+sys	0m0.004s
+1.56user 0.00system 0:01.56elapsed 99%CPU (0avgtext+0avgdata 5200maxresident)k
+0inputs+8outputs (0major+737minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp6_9vars_7ite_unsat.smt
+unknown
+
+real	10m0.006s
+user	9m58.896s
+sys	0m0.046s
+598.89user 0.04system 10:00.00elapsed 99%CPU (0avgtext+0avgdata 58768maxresident)k
+0inputs+8outputs (0major+4105minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp12_3vars_2ite_unsat.smt
+unsat
+
+real	0m0.006s
+user	0m0.004s
+sys	0m0.002s
+0.00user 0.00system 0:00.00elapsed 57%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+658minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_5vars_1ite_unsat.smt
+unsat
+
+real	0m1.468s
+user	0m1.461s
+sys	0m0.001s
+1.46user 0.00system 0:01.46elapsed 99%CPU (0avgtext+0avgdata 5152maxresident)k
+0inputs+0outputs (0major+734minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_7vars_5ite_unsat.smt
+unsat
+
+real	0m2.891s
+user	0m2.884s
+sys	0m0.001s
+2.88user 0.00system 0:02.89elapsed 99%CPU (0avgtext+0avgdata 5696maxresident)k
+0inputs+0outputs (0major+768minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_8vars_7ite_unsat.smt
+unknown
+
+real	10m0.006s
+user	9m58.997s
+sys	0m0.026s
+598.99user 0.02system 10:00.00elapsed 99%CPU (0avgtext+0avgdata 68512maxresident)k
+0inputs+8outputs (0major+4696minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp16_7vars_6ite_unsat.smt
+unknown
+
+real	10m0.012s
+user	9m58.910s
+sys	0m0.045s
+598.90user 0.04system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 65040maxresident)k
+0inputs+16outputs (0major+4478minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_6vars_4ite_unsat.smt
+unsat
+
+real	0m1.955s
+user	0m1.952s
+sys	0m0.000s
+1.95user 0.00system 0:01.95elapsed 99%CPU (0avgtext+0avgdata 5280maxresident)k
+0inputs+0outputs (0major+744minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp16_5vars_2ite_unsat.smt
+unsat
+
+real	0m1.313s
+user	0m1.310s
+sys	0m0.001s
+1.30user 0.00system 0:01.31elapsed 99%CPU (0avgtext+0avgdata 5040maxresident)k
+0inputs+0outputs (0major+727minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_9vars_1ite_unsat.smt
+unsat
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+0.00user 0.00system 0:00.00elapsed 66%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+685minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_9vars_4ite_unsat.smt
+unknown
+
+real	10m0.010s
+user	9m58.959s
+sys	0m0.045s
+598.95user 0.04system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 58384maxresident)k
+0inputs+8outputs (0major+4064minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp12_7vars_4ite_unsat.smt
+unknown
+
+real	10m0.010s
+user	9m58.844s
+sys	0m0.032s
+598.84user 0.03system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 49088maxresident)k
+0inputs+16outputs (0major+3486minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_6vars_3ite_unsat.smt
+unsat
+
+real	0m0.721s
+user	0m0.719s
+sys	0m0.002s
+0.71user 0.00system 0:00.72elapsed 99%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+712minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp16_7vars_1ite_unsat.smt
+unsat
+
+real	3m51.939s
+user	3m51.548s
+sys	0m0.024s
+231.54user 0.02system 3:51.94elapsed 99%CPU (0avgtext+0avgdata 28048maxresident)k
+0inputs+24outputs (0major+2167minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp6_6vars_3ite_unsat.smt
+unsat
+
+real	0m12.709s
+user	0m12.690s
+sys	0m0.002s
+12.69user 0.00system 0:12.71elapsed 99%CPU (0avgtext+0avgdata 7840maxresident)k
+0inputs+8outputs (0major+904minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_3vars_2ite_unsat.smt
+unsat
+
+real	0m0.005s
+user	0m0.004s
+sys	0m0.002s
+0.00user 0.00system 0:00.00elapsed 66%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+658minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_7vars_2ite_unsat.smt
+unsat
+
+real	0m1.013s
+user	0m1.009s
+sys	0m0.003s
+1.00user 0.00system 0:01.01elapsed 99%CPU (0avgtext+0avgdata 5056maxresident)k
+0inputs+0outputs (0major+729minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp14_8vars_7ite_unsat.smt
+unknown
+
+real	10m0.006s
+user	9m58.874s
+sys	0m0.064s
+598.87user 0.06system 10:00.00elapsed 99%CPU (0avgtext+0avgdata 68512maxresident)k
+0inputs+8outputs (0major+4695minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_8vars_2ite_unsat.smt
+unknown
+
+real	10m0.016s
+user	9m58.475s
+sys	0m0.447s
+598.47user 0.44system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 45904maxresident)k
+0inputs+8outputs (0major+3282minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp16_8vars_1ite_unsat.smt
+unknown
+
+real	10m0.011s
+user	9m59.132s
+sys	0m0.028s
+599.13user 0.02system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 44800maxresident)k
+0inputs+8outputs (0major+3214minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_9vars_2ite_unsat.smt
+unknown
+
+real	10m0.006s
+user	9m59.230s
+sys	0m0.025s
+599.22user 0.02system 10:00.00elapsed 99%CPU (0avgtext+0avgdata 63616maxresident)k
+0inputs+16outputs (0major+4389minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_8vars_0ite_unsat.smt
+unsat
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.002s
+0.00user 0.00system 0:00.00elapsed 33%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+669minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp12_4vars_0ite_unsat.smt
+unsat
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+0.00user 0.00system 0:00.00elapsed 50%CPU (0avgtext+0avgdata 4928maxresident)k
+0inputs+0outputs (0major+648minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp12_7vars_2ite_unsat.smt
+unsat
+
+real	6m27.125s
+user	6m26.581s
+sys	0m0.015s
+386.58user 0.01system 6:27.12elapsed 99%CPU (0avgtext+0avgdata 33824maxresident)k
+0inputs+16outputs (0major+2528minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp12_9vars_5ite_unsat.smt
+unknown
+
+real	10m0.011s
+user	9m59.169s
+sys	0m0.048s
+599.16user 0.04system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 77072maxresident)k
+0inputs+8outputs (0major+5230minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp14_3vars_1ite_unsat.smt
+unsat
+
+real	0m0.005s
+user	0m0.005s
+sys	0m0.001s
+0.00user 0.00system 0:00.00elapsed 66%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+658minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_7vars_3ite_unsat.smt
+unsat
+
+real	0m1.099s
+user	0m1.097s
+sys	0m0.000s
+1.09user 0.00system 0:01.10elapsed 99%CPU (0avgtext+0avgdata 5024maxresident)k
+0inputs+0outputs (0major+726minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp14_4vars_2ite_unsat.smt
+unsat
+
+real	0m0.070s
+user	0m0.068s
+sys	0m0.002s
+0.06user 0.00system 0:00.07elapsed 95%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+683minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_5vars_0ite_unsat.smt
+unsat
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.001s
+0.00user 0.00system 0:00.00elapsed 0%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+652minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_4vars_1ite_unsat.smt
+unsat
+
+real	0m0.068s
+user	0m0.066s
+sys	0m0.002s
+0.06user 0.00system 0:00.06elapsed 97%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+682minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp16_4vars_0ite_unsat.smt
+unsat
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.002s
+0.00user 0.00system 0:00.00elapsed 50%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+647minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp16_8vars_2ite_unsat.smt
+unknown
+
+real	10m0.011s
+user	9m59.112s
+sys	0m0.020s
+599.11user 0.01system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 45904maxresident)k
+0inputs+16outputs (0major+3285minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_5vars_3ite_unsat.smt
+unsat
+
+real	0m1.060s
+user	0m1.056s
+sys	0m0.003s
+1.05user 0.00system 0:01.06elapsed 99%CPU (0avgtext+0avgdata 5008maxresident)k
+0inputs+0outputs (0major+726minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_8vars_6ite_unsat.smt
+unsat
+
+real	0m39.900s
+user	0m39.844s
+sys	0m0.005s
+39.84user 0.00system 0:39.90elapsed 99%CPU (0avgtext+0avgdata 13984maxresident)k
+0inputs+8outputs (0major+1288minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_9vars_7ite_unsat.smt
+unsat
+
+real	1m18.181s
+user	1m18.077s
+sys	0m0.007s
+78.07user 0.00system 1:18.18elapsed 99%CPU (0avgtext+0avgdata 18928maxresident)k
+0inputs+8outputs (0major+1596minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp6_7vars_3ite_unsat.smt
+unsat
+
+real	1m27.371s
+user	1m27.247s
+sys	0m0.004s
+87.24user 0.00system 1:27.37elapsed 99%CPU (0avgtext+0avgdata 17920maxresident)k
+0inputs+8outputs (0major+1535minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_9vars_1ite_unsat.smt
+unknown
+
+real	10m0.004s
+user	9m58.922s
+sys	0m0.204s
+598.92user 0.20system 10:00.00elapsed 99%CPU (0avgtext+0avgdata 53424maxresident)k
+0inputs+8outputs (0major+3753minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_8vars_1ite_unsat.smt
+unsat
+
+real	0m0.003s
+user	0m0.002s
+sys	0m0.001s
+0.00user 0.00system 0:00.00elapsed 33%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+677minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp14_5vars_0ite_unsat.smt
+unsat
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.000s
+0.00user 0.00system 0:00.00elapsed 50%CPU (0avgtext+0avgdata 4928maxresident)k
+0inputs+0outputs (0major+652minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp6_8vars_1ite_unsat.smt
+unsat
+
+real	0m0.002s
+user	0m0.001s
+sys	0m0.002s
+0.00user 0.00system 0:00.00elapsed 33%CPU (0avgtext+0avgdata 4928maxresident)k
+0inputs+0outputs (0major+681minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp12_8vars_5ite_unsat.smt
+unknown
+
+real	10m0.014s
+user	9m59.069s
+sys	0m0.027s
+599.06user 0.02system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 59856maxresident)k
+0inputs+16outputs (0major+4155minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp6_8vars_0ite_unsat.smt
+unsat
+
+real	0m0.002s
+user	0m0.003s
+sys	0m0.000s
+0.00user 0.00system 0:00.00elapsed 66%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+677minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp6_8vars_5ite_unsat.smt
+unsat
+
+real	8m22.748s
+user	8m22.086s
+sys	0m0.018s
+502.08user 0.01system 8:22.74elapsed 99%CPU (0avgtext+0avgdata 50096maxresident)k
+0inputs+8outputs (0major+3544minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp12_7vars_1ite_unsat.smt
+unsat
+
+real	3m23.596s
+user	3m23.343s
+sys	0m0.004s
+203.34user 0.00system 3:23.59elapsed 99%CPU (0avgtext+0avgdata 28064maxresident)k
+0inputs+8outputs (0major+2168minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp12_3vars_1ite_unsat.smt
+unsat
+
+real	0m0.005s
+user	0m0.005s
+sys	0m0.001s
+0.00user 0.00system 0:00.00elapsed 66%CPU (0avgtext+0avgdata 4912maxresident)k
+0inputs+0outputs (0major+657minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp8_9vars_7ite_unsat.smt
+unknown
+
+real	10m0.007s
+user	9m59.189s
+sys	0m0.035s
+599.18user 0.03system 10:00.00elapsed 99%CPU (0avgtext+0avgdata 82960maxresident)k
+0inputs+16outputs (0major+5674minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_8vars_3ite_unsat.smt
+unknown
+
+real	10m0.011s
+user	9m59.253s
+sys	0m0.015s
+599.25user 0.01system 10:00.01elapsed 99%CPU (0avgtext+0avgdata 63104maxresident)k
+0inputs+8outputs (0major+4358minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp4_9vars_4ite_unsat.smt
+unsat
+
+real	0m4.534s
+user	0m4.522s
+sys	0m0.005s
+4.52user 0.00system 0:04.53elapsed 99%CPU (0avgtext+0avgdata 5968maxresident)k
+0inputs+8outputs (0major+786minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp10_7vars_5ite_unsat.smt
+unknown
+
+real	10m0.004s
+user	9m59.251s
+sys	0m0.019s
+599.25user 0.01system 10:00.00elapsed 99%CPU (0avgtext+0avgdata 62176maxresident)k
+0inputs+8outputs (0major+4299minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp12_9vars_7ite_unsat.smt
+unknown
+
+real	10m0.006s
+user	9m59.132s
+sys	0m0.046s
+599.13user 0.04system 10:00.00elapsed 99%CPU (0avgtext+0avgdata 71760maxresident)k
+0inputs+8outputs (0major+4898minor)pagefaults 0swaps
+./QF_LIA/rings_preprocessed/ring_2exp14_9vars_8ite_unsat.smt
