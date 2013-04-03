@@ -1727,3 +1727,6 @@ false
 ./QF_BV/spear/openldap_v2.3.35/servers_slapd_a_vc149571.smt::known
 ./QF_BV/spear/openldap_v2.3.35/servers_slapd_a_vc149570.smt::known
 ./QF_BV/spear/openldap_v2.3.35/servers_slapd_a_vc149922.smt::known
+QF_BV/VS3/VS3-benchmark-A10.smt::z3
+QF_BV/VS3/VS3-benchmark-A11.smt::z3
+QF_BV/VS3/VS3-benchmark-A12.smt::z3

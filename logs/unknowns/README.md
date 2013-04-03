@@ -53,10 +53,13 @@ For each timeout t, run following steps on each file within a logic.
 4. If only one solver s finishes, answer s, where s is the solver's name.
 
 If any answer unknown, do the above just on the unknown files
-with the next timeout t'.
+with the next timeout t'. If most answer known, reduce the timeout.
 
+There's a lot of benchmarks to go through. The logics QF_BV and QF_AUBV, for example,
+have roughly 46000 benchmarks to go through. Given we only have about 43,200
+minutes until the project is due, taking a random sample is our best bet. 
 
 ### Results
 
-N/A 
+N/A
 
