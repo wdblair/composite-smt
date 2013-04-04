@@ -13,12 +13,15 @@ logic_file = logic.downcase + ".log"
 def random_sample (population, k)
   sample = Array.new(k)
   population.each_with_index do |file, i|
-    j = SecureRandom.random_number(i).to_i
-    if j < k 
-      sample[j] = file
-    end
+      if i < k 
+	sample[i] = file
+      else
+         j = SecureRandom.random_number(i).to_i
+         if j < k 
+           sample[j] = file
+         end
+      end
   end
-
   sample
 end
 
@@ -80,7 +83,6 @@ Find.find(logic) do |file|
 end
 
 ### Take a sample
-#
 sample = random_sample(files, sample_size.to_i)
 
 unknowns = sample
