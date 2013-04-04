@@ -50,7 +50,7 @@ def unknown?(command, file)
    
   
   if status.exitstatus == 124
-      res = false
+      res = true
       found = true
   end
 
