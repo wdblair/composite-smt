@@ -10,7 +10,7 @@ time_start = time.time()
 for root, dirs, files in os.walk(test_dir):
     for file in files:
         sub_start = time.time()
-        subprocess.call(['z3', '-smt2', root+'/'+file], stdout=devnull, stderr=error_log)
+        subprocess.call(['z3', '-smt', root+'/'+file], stdout=devnull, stderr=error_log)
         sub_time = time.time() - sub_start
         print "Time for file {0} is {1}".format(file, sub_time)
 time_stop = time.time()
