@@ -29,31 +29,24 @@ tests. We exclude logics that were explicitely unsupported by a solver.
 
 ### Results
 
-![QF_AX][6]
-![QF_AUFBV][1]
-![QF_BV][8]
-![QF_LIA][2]
-![QF_LRA][4]
-![QF_UFLRA][9]
-![AUFLIA][10]
-![AUFLIRA][11]
-![QF_UFIDL][5]
-
+![Yices][1]
 
 ### Conclusions
 
-Based on our results, there isn't much compelling evidence to use Yices 1.0. One
-feature it has that is absent in Yices 2.0 and Z3 is the ability to find maximally
-satisifying models for formulas, but this may be outside the scope for our project.
+Based on our results, there isn't much compelling evidence to use Yices 
+1.0. It is true that both solvers can handle _most_ formulas in a short
+time, but there is little that Yices can do that Z3 cannot. Of course,
+integer difference logic and linear real arithmetic appear to be exceptions to this rule, but we argue in the next section where Yices 1.0 excels, Yices 2.0 excels more.
 
-[1]: img/solvers/qf_aufbv.svg
-[2]: img/solvers/qf_lia.svg
-[3]: img/solvers/qf_auflia.svg
-[4]: img/solvers/qf_lra.svg
-[5]: img/solvers/qf_ufidl.svg
-[6]: img/solvers/qf_ax.svg
-[7]: img/solvers/qf_uflia.svg
-[8]: img/solvers/qf_bv.svg
-[9]: img/solvers/qf_uflra.svg
-[10]: img/solvers/auflia.svg
-[11]: img/solvers/auflira.svg
+Another compelling reason not to use Yices 1 is the fact that Z3 beats it
+to the punch on roughly 30% of our QF_BV sample. Given that quantifier
+free formulas over bit vectors is the largest benchmark suite available,
+we would like to use two solvers that are competitive in deciding it.
+
+##### Notes
+
+One feature it has that is absent in Yices 2.0 and Z3 is the ability 
+to find maximally satisifying models for formulas, but this may be outside 
+the scope for our project.
+
+[1]: img/solvers/yices.svg

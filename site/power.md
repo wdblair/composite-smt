@@ -1,5 +1,5 @@
 ---
-Title: Capabilities of Z3 and Yices
+title: Capabilities of Z3 and Yices
 layout: default
 ---
 
@@ -8,5 +8,18 @@ layout: default
 This experiment tries to determine what logics from the SMT benchmarks (if any))
 are better solved by yices or z3.
 
-Intuition
-=========
+### Intuition
+
+
+### Experiment
+
+
+### Results
+
+![Results][1]
+
+### Analysis
+
+### Conclusion
+
+[1]: img/power/power.svg

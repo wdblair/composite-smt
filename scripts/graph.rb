@@ -80,8 +80,8 @@ plots = logics.map { |l|
 }.join(", ")
 
 commands = <<-EOS
-set terminal pngcairo  transparent enhanced font "arial,10" fontscale 1.0 size 960, 400
-set output 'yices.png'
+set terminal svg font "arial,10" size 960, 400
+set output 'yices.svg'
 set border 3 front linetype -1 linewidth 1.000
 set boxwidth 0.8 absolute
 set style fill   solid 1.00 noborder
@@ -99,7 +99,7 @@ set ytics border in scale 0,0 mirror norotate  offset character 0, 0, 0 autojust
 set ztics border in scale 0,0 nomirror norotate  offset character 0, 0, 0 autojustify
 set cbtics border in scale 0,0 mirror norotate  offset character 0, 0, 0 autojustify
 set rtics axis in scale 0,0 nomirror norotate  offset character 0, 0, 0 autojustify
-set title "Gauging Capabilities"
+set title "Am Yices Nicht Neues"
 set xlabel "Logics"
 set xlabel  offset character 0, -2, 0 font "" textcolor lt -1 norotate
 set ylabel "Formulas Solved Within Timeout" 
