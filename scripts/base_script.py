@@ -10,7 +10,7 @@ class Z3(threading.Thread):
         self.killq = killq
     def run(self):
         process = subprocess.Popen(['z3', '-smt', self.smt], stdout=subprocess.PIPE)
-        self.put_nowait(process)
+        self.killq.put_nowait(process)
         out, err = process.communicate()
         killp = process
         while killp is process:
@@ -33,7 +33,7 @@ class Yices(threading.Thread):
         self.killq = killq
     def run(self):
         process = subprocess.Popen(['yices-smt', self.smt], stdout=subprocess.PIPE)
-        self.put_nowait(process)
+        self.killq.put_nowait(process)
         out, err = process.communicate()
         killp = process
         while killp is process:
