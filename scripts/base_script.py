@@ -10,12 +10,13 @@ class Z3(threading.Thread):
         self.killq = killq
     def run(self):
         process = subprocess.Popen(['z3', '-smt', self.smt], stdout=subprocess.PIPE)
-        self.killq.put_nowait(process)
+        pid = str(process.pid)
+        self.killq.put_nowait(pid)
         out, err = process.communicate()
-        killp = process
-        while killp is process:
+        killp = pid
+        while killp == pid:
             killp = self.killq.get()
-        killp.kill()
+        subprocess.Popen(['kill', '-9', killp])
         if out.split('\n')[0] == 'unknown':
             return None        
         try:
@@ -33,12 +34,13 @@ class Yices(threading.Thread):
         self.killq = killq
     def run(self):
         process = subprocess.Popen(['yices-smt', self.smt], stdout=subprocess.PIPE)
-        self.killq.put_nowait(process)
+        pid = str(process.pid)
+        self.killq.put_nowait(pid)
         out, err = process.communicate()
-        killp = process
-        while killp is process:
+        killp = pid
+        while killp == pid:
             killp = self.killq.get()
-        killp.kill()
+        subprocess.Popen(['kill', '-9', killp])
         if out.split('\n')[0] == 'unknown':
             return None
         try:
