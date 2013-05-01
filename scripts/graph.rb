@@ -42,10 +42,6 @@ def process logic
     end
   end
 
-  xtics = data.each_with_index.map { |res, i|
-    "#{res[0]} #{i}"
-  }.join(", ")
-
   headlines = "Solver 1s 5s 10s 30s 1m 2m 5m 10m\n"
 
   data_pts = data.each_with_index.map { |res, i|
@@ -64,8 +60,6 @@ information = logics.map do |l| process (l) end
 
 min = 0
 width = 1
-puts information[0]
-
 init = false
 
 plots = logics.map { |l|
@@ -99,7 +93,7 @@ set ytics border in scale 0,0 mirror norotate  offset character 0, 0, 0 autojust
 set ztics border in scale 0,0 nomirror norotate  offset character 0, 0, 0 autojustify
 set cbtics border in scale 0,0 mirror norotate  offset character 0, 0, 0 autojustify
 set rtics axis in scale 0,0 nomirror norotate  offset character 0, 0, 0 autojustify
-set title "Am Yices Nicht Neues"
+set title "Yices 2.0 vs. Z3"
 set xlabel "Logics"
 set xlabel  offset character 0, -2, 0 font "" textcolor lt -1 norotate
 set ylabel "Formulas Solved Within Timeout" 
