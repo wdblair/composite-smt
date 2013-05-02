@@ -66,7 +66,7 @@ implement and will gives us a good comparison to the composite solver we want to
 decides the best solver to run based on the characteristics of the input formula.
 
 * #### 4/23/13
-Met and went over the initial baseline SMT solver we developed. Decided that once an SMT solver finishes, 
+Went over the initial baseline SMT solver we developed. Decided that once an SMT solver finishes,
 the program should terminate the other solver and return the result. Went over our current graphs and
 talked about how to present our results with respect to efficiency. Outlined a good direction for our final
 deliverable; an SMT solver as feature rich as Z3 but as quick as Yices 2.
