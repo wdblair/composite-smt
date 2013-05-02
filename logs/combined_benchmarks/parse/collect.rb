@@ -21,6 +21,25 @@ File.open(logic+".log", "r") do |f|
       results[current_file] ||= {}
       results[current_file][solver] = time
     end
+  
+    if line =~ /(.*?).smt:(\d+.\d+):(\d+.\d+)/
+      current_file = $1
+      results[current_file] ||= {}
+
+      z3 = $2.to_f
+      yices = $3.to_f
+
+      if z3 == 0.0
+	z3 = 0.005
+      end
+
+      if yices == 0.0
+	yices = 0.005
+      end
+
+      results[current_file]["Z3"] = z3
+      results[current_file]["yices"] = yices       
+    end
 
     if line =~ /(z3|yices):(z3|yices)/
       # The winner isn't important
