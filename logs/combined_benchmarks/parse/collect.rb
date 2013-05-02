@@ -46,8 +46,8 @@ unset key
 set title "#{logic}: Performance Test"
 set xlabel "Z3"
 set ylabel "Yices 2"
-set yrange [0.01 : 35.0 ]
-set xrange [0.01 : 35.0 ]
+set yrange [0.001 : 35.0 ]
+set xrange [0.001 : 35.0 ]
 plot "-" using 1:2 with points, x with lines
 EOS
 
