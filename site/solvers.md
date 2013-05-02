@@ -66,8 +66,8 @@ as unknown.
 
 The experiments we ran between Yices 1.0 and Z3 were the same as described in the
 capability experiments. The following are the results obtained for some common
-logics. For each logic, we selected a random sample of at least 5% of the total
-tests. We exclude logics that were explicitely unsupported by a solver.
+logics. For each logic, we selected a random sample between 10~20% of the total
+benchmarks. We exclude logics that were explicitely unsupported by a solver.
 
 ### Results
 
