@@ -21,7 +21,7 @@ File.open(logic+".log", "r") do |f|
     end
 
     if line =~ /(z3|yices):(z3|yices)/
-      #I'll determine the winner
+      # The winner isn't important
       #user_winner = $1
       #real_winner = $2
     end
