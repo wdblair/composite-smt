@@ -15,7 +15,9 @@ File.open(logic+".log", "r") do |f|
       real = $4.to_f
       
       time = [user, real].min
-
+      if time == 0.0 then
+	time = 0.005
+      end
       results[current_file] ||= {}
       results[current_file][solver] = time
     end
@@ -46,8 +48,8 @@ unset key
 set title "#{logic}: Performance Test"
 set xlabel "Z3"
 set ylabel "Yices 2"
-set yrange [0.01 : 35.0 ]
-set xrange [0.01 : 35.0 ]
+set yrange [0.005 : 35.0 ]
+set xrange [0.005 : 35.0 ]
 plot "-" using 1:2 with points, x with lines
 EOS
 
