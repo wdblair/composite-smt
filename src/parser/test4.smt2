@@ -1,0 +1,7 @@
+(declare-fun A () Bool)
+(declare-fun B () Bool)
+(assert A) 
+(assert (not B))
+(assert (! (or A (! B :named BB)) :named orAB))
+(check-sat)
+(exit)
