@@ -2,7 +2,7 @@ CC = gcc
 FLEX = flex
 BISON = bison
 CFLAGS = -std=c99 -pedantic -g -Wall -I../include
-LDFLAGS = -g -lgmp -lstdc++ -L ../lib -lyices
+LDFLAGS = -g -lgmp -lstdc++ -lyices
 
 OBJECTS = smtlib2bisonparser.o \
 	  smtlib2flexlexer.o \
@@ -24,7 +24,7 @@ clean:
 	rm -f $(OBJECTS) $(YICES_OBJECTS) libsmtlib2parser.a smtlib2yices smtlib2bisonparser.c smtlib2bisonparser.h smtlib2flexlexer.c smtlib2flexlexer.h
 
 yices2: libsmtlib2parser.a $(YICES_OBJECTS)
-	$(CC) $(YICES_OBJECTS) libsmtlib2parser.a $(LDFLAGS) -o ../$@
+	$(CC) -L../lib/ $(YICES_OBJECTS) libsmtlib2parser.a $(LDFLAGS) -o ../$@
 
 smtlib2yices.o: smtlib2yices.c
 	$(CC) $(CFLAGS) -c -o $@ $<
