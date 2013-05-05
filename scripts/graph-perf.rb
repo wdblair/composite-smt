@@ -3,7 +3,7 @@
 logic = ARGV[0]
 
 y_solver = ARGV[1]
-x_solver = "Z3" 
+x_solver = "Z3"
 
 results = {}
 
@@ -69,10 +69,10 @@ set grid nopolar
 unset key
 set title "#{logic}: Performance Test"
 set xlabel "#{x_solver} (s)"
-set ylabel "#{y solver} (s)"
+set ylabel "#{y_solver} (s)"
 set yrange [0.005 : 35.0 ]
 set xrange [0.005 : 35.0 ]
-plot "-" using 1:2 with points, x with lines
+plot "-" using 1:2 with points linecolor rgb "black", x with lines
 EOS
 
 gnu = IO.popen("gnuplot", "r+")
