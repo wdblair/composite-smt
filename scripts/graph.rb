@@ -9,6 +9,8 @@ if ARGV.size < 1
   STDERR.puts "Usage: graph.rb logic1 logic2 logic3"
 end
 
+graph_title = "Comparing Yices 2.0 with Z3"
+
 logics = ARGV
 
 def process logic
@@ -64,7 +66,7 @@ init = false
 
 plots = logics.map { |l|
   title = if not init then "t col" else "notitle" end
-
+  
   label = "newhistogram \'#{l}\' lt 1, '-' using 2:xtic(1) #{title}"
   cols =  (3..9).map {  |i|
     "'' u #{i} #{title}"
@@ -74,7 +76,7 @@ plots = logics.map { |l|
 }.join(", ")
 
 commands = <<-EOS
-set terminal svg font "arial,10" size 960, 400
+set terminal svg background rgb "white" font "arial,10" size 960, 400
 set output 'yices.svg'
 set border 3 front linetype -1 linewidth 1.000
 set boxwidth 0.8 absolute
@@ -93,15 +95,13 @@ set ytics border in scale 0,0 mirror norotate  offset character 0, 0, 0 autojust
 set ztics border in scale 0,0 nomirror norotate  offset character 0, 0, 0 autojustify
 set cbtics border in scale 0,0 mirror norotate  offset character 0, 0, 0 autojustify
 set rtics axis in scale 0,0 nomirror norotate  offset character 0, 0, 0 autojustify
-set title "Yices 2.0 vs. Z3"
+set title "#{graph_title}"
 set xlabel "Logics"
 set xlabel  offset character 0, -2, 0 font "" textcolor lt -1 norotate
-set ylabel "Formulas Solved Within Timeout" 
+set ylabel "% of Formulas Solved Within Timeout"
 set yrange [ 0.00000 : 100. ] noreverse nowriteback
 plot #{plots}
 EOS
-
-puts commands
 
 gnu = IO.popen("gnuplot", "r+")
 
