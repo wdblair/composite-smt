@@ -17,7 +17,7 @@ static void* context;
 
 static pid_t procs[2];
 
-#define LOG 1
+#define LOG 0
 
 typedef enum {
   UNSAT,
