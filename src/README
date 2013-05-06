@@ -2,7 +2,7 @@
 run:
     export LD_LIBRARY_PATH=lib
 
-2. Compile the Composite Solver 
+2. Compile the Composite Solver
 Go to the src/ directory and run command:
     make
 

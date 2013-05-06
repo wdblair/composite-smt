@@ -1157,7 +1157,7 @@ SMTLIB2_YICES_DECLHANDLER(lt)
 
 SMTLIB2_YICES_DECLHANDLER(geq)
 {
-  return (smtlib2_term)(intptr_t)yices_arith_lt_atom((term_t)(intptr_t)smtlib2_vector_at(args, 0), (term_t)(intptr_t)smtlib2_vector_at(args, 1));
+  return (smtlib2_term)(intptr_t)yices_arith_geq_atom((term_t)(intptr_t)smtlib2_vector_at(args, 0), (term_t)(intptr_t)smtlib2_vector_at(args, 1));
 }
 
 
