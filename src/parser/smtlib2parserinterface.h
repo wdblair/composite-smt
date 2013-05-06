@@ -36,6 +36,9 @@ typedef struct smtlib2_parser_interface smtlib2_parser_interface;
 
 #define SMTLIB2_PARSER_INTERFACE(p) ((smtlib2_parser_interface *)p)
 
+//Bison's a pain
+typedef void* yyscan_t;
+
 /**
  * Interface for SMT-LIB v2 parsers
  */
