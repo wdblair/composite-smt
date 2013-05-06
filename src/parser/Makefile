@@ -26,8 +26,6 @@ clean:
 yices2: libsmtlib2parser.a $(YICES_OBJECTS)
 	$(CC) -L../lib/ $(YICES_OBJECTS) libsmtlib2parser.a $(LDFLAGS) -o ../$@
 
-smtlib2yices.o: smtlib2yices.c
-	$(CC) $(CFLAGS) -c -o $@ $<
 yicesmain.o: yicesmain.c
 	$(CC) $(CFLAGS) -c -o $@ $<
 
