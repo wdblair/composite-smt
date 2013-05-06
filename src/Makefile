@@ -2,7 +2,7 @@ all: composite
 
 composite: composite.c
 	make -C parser
-	gcc -std=gnu99 -Wall -o $@ -I include composite.c -lzmq -lpthread
+	gcc -std=gnu99 -Wall -o $@ -I include -L lib composite.c -lzmq -lpthread
 
 
 .phony: run
