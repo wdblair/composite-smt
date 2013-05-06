@@ -10,11 +10,14 @@
 #include <assert.h>
 #include <stdint.h>
 #include <string.h>
+#include <sched.h>
 
 //ZMQ Context is Shared
 static void* context;
 
-static int show_winner;
+static pid_t procs[2];
+
+#define LOG 1
 
 typedef enum {
   UNSAT,
@@ -45,10 +48,18 @@ void * control_worker(void *socket) {
     assert(read != -1);
 
     //Don't display something we've already checked
-    if(buf[2] < checked) {
+    if(buf[2] < checked && buf[0] != FINISHED) {
+#if LOG
+      if(buf[1] == Z3) {
+        printf("Z3");
+      } else {
+        printf("Yices");
+      }
+      printf(" lost check-sat #%d\n", buf[2]);
+#endif
       continue;
     }
-
+    
     switch(buf[0]) {
     case UNSAT: 
       printf("unsat\n");
@@ -60,14 +71,14 @@ void * control_worker(void *socket) {
       printf("unknown");
       break;
     case FINISHED:
-      if(show_winner) {
-        if(buf[2] == Z3) {
-          printf("Z3");
-        } else {
-          printf("Yices");
-        }
-        printf(" wins!\n");
+#if LOG
+      if(buf[1] == Z3) {
+        printf("Z3");
+      } else {
+        printf("Yices");
       }
+      printf(" wins!\n");
+#endif
       fflush(stdout);
       exit(0);
     }
@@ -79,13 +90,13 @@ void * control_worker(void *socket) {
 void * solver_worker(void *args) {
   worker_args *params = args;
   FILE *solver = fdopen(params->read, "r");
-
+  
   assert(solver != NULL);
-
+  
   char buf[128];
   uint32_t msg[3];
   int checked = 0;
-  
+
   while(fgets(buf, 128, solver) != NULL) {
     if(strcmp(buf, "unsat\n") == 0) {
       msg[0] = UNSAT;
@@ -109,6 +120,8 @@ void * solver_worker(void *args) {
   msg[1] = params->solver;
   msg[2] = checked;
   zmq_send (params->socket, msg, sizeof(msg), 0);
+  
+  while(1);
   return NULL;
 }
 
@@ -129,7 +142,7 @@ void start_solver(solver s, int read, int write) {
     fprintf(stderr, "Couldn't fork");
     exit(1);
   } else if (running > 0) {
-    close(read);
+    procs[s] = running;
     close(write);
     return ;
   }
@@ -154,45 +167,41 @@ void start_solver(solver s, int read, int write) {
   fprintf(stderr, "Couldn't start a solver\n");
   exit(1);
 }
-
+    
 int main (int argc, char *argv[]) {
-  int to_z3[2];
   int from_z3[2];
-
-  int to_yices[2];
   int from_yices[2];
 
-  char buf[128];
-  
   int status;
   
-  //Check if they want to see the winner
-  if (argc == 2) {
-    show_winner = 1;
+  if (argc < 2) {
+    fprintf(stderr, "usage: %s file", argv[0]);
+    exit(1);
   }
   
+  FILE *z3file = fopen(argv[1], "r");
+  FILE *yicesfile = fopen(argv[1], "r");
+  
+  assert(z3file != NULL);
+  assert(yicesfile != NULL);
+
   //Set up the pipes to talk to the solvers
   
-  status = pipe(to_z3);
-  assert(status == 0);
-  
-  status = pipe(to_yices);
-  assert(status == 0);
-
   status = pipe(from_z3);
   assert(status == 0);
   
   status = pipe(from_yices);
   assert(status == 0);
+  
 
-  start_solver(Z3, to_z3[0], from_z3[1]);
-  start_solver(YICES, to_yices[0], from_yices[1]);
+  start_solver(Z3, fileno(z3file), from_z3[1]);
+  start_solver(YICES, fileno(yicesfile), from_yices[1]);
 
-  FILE * fz3 = fdopen(to_z3[1], "w");
-  FILE * fyices = fdopen(to_yices[1], "w");
+  assert(z3file != NULL);
+  assert(yicesfile != NULL);
 
-  assert(fz3 != NULL);
-  assert(fyices != NULL);
+  fclose(z3file);
+  fclose(yicesfile);
 
   //Set up our in process sockets
 
@@ -218,7 +227,7 @@ int main (int argc, char *argv[]) {
 
   //Start the controller / worker threads
   pthread_t control;
-
+  
   status = 
     pthread_create(&control, NULL, control_worker, (void*)responder);
 
@@ -226,18 +235,9 @@ int main (int argc, char *argv[]) {
 
   start_worker(Z3, skz3, from_z3[0]);
   start_worker(YICES, skyices, from_yices[0]);
-
-  //Send every line we get to the solvers.
-
-  while(fgets(buf, 128, stdin) != NULL) {
-    fputs(buf, fz3);
-    fputs(buf, fyices);
-  }
-  fclose(fz3);
-  fclose(fyices);
-
-  while(1) {
-    sleep(1);
-  }
+  
+  while(1)
+    sched_yield();
+  
   return 0;
 }

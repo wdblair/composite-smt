@@ -10,5 +10,7 @@
 (assert C)
 (check-sat)
 (pop 1)
+(push 1)
 (define-fun C () Int 1)
+(pop 1)
 (exit)

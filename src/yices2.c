@@ -359,9 +359,10 @@ static void smtlib2_yices_parser_set_logic(smtlib2_parser_interface *p,
     if (smtlib2_hashtable_find(yp->logics_arith_only_,
                                (intptr_t)logic, &v)) {
       
-      context_t *ctx = YCTX(yp);
+      //add optimization (if there's time)
+      //context_t *ctx = YCTX(yp);
       
-      yices_free_context(ctx);
+      //yices_free_context(ctx);
       
       //yices_set_arith_only(true); Delete the context, recreate it for arithmetic only.
     }
