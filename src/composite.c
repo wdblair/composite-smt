@@ -158,7 +158,7 @@ void start_solver(solver s, int read, int write) {
 
   switch(s) {
   case YICES:
-    execvp("yices2", yices_buf);
+    execvp("./yices2", yices_buf);
     break;
   case Z3:
     execvp("z3", z3_buf);
@@ -175,7 +175,7 @@ int main (int argc, char *argv[]) {
   int status;
   
   if (argc < 2) {
-    fprintf(stderr, "usage: %s file", argv[0]);
+    fprintf(stderr, "usage: %s file\n", argv[0]);
     exit(1);
   }
   

@@ -9,3 +9,7 @@ composite: composite.c
 
 run:
 	PATH=$(PATH):. ./composite < parser/test5.smt2
+
+clean:
+	rm composite yices2
+	make -C parser clean

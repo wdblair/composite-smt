@@ -1,0 +1,20 @@
+1. Add lib to LD_LIBRARY_PATH
+run:
+    export LD_LIBRARY_PATH=lib
+
+2. Compile the Composite Solver 
+Go to the src/ directory and run command:
+    make
+
+'make clean' can be used to clean up all compiled files.
+
+3. Run composite solver on test files
+The test/ directory contains some test smt2 files that can be used to test the composite solver. Individual files can be run by doing:
+    ./composite file_name
+
+for example one can run the file 'test/test1.smt2' by running the command:
+    ./composite test/test1.smt2
+
+To run the composite solver on all the files in the test directory, the following command can be used directly:
+    find ./test -name *.smt2 -exec ./composite {} \;
+
