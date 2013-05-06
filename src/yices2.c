@@ -1408,15 +1408,38 @@ SMTLIB2_YICES_DECLHANDLER(bvmul)
 }
 
 
-SMTLIB2_YICES_DECLHANDLER(bvudiv) { return NULL; /* TODO */ }
-SMTLIB2_YICES_DECLHANDLER(bvsdiv) { return NULL; /* TODO */ }
-SMTLIB2_YICES_DECLHANDLER(bvsmod) { return NULL; /* TODO */ }
-SMTLIB2_YICES_DECLHANDLER(bvurem) { return NULL; /* TODO */ }
-SMTLIB2_YICES_DECLHANDLER(bvsrem) { return NULL; /* TODO */ }
-SMTLIB2_YICES_DECLHANDLER(bvshl)  { return NULL; /* TODO */ }
-SMTLIB2_YICES_DECLHANDLER(bvlshr) { return NULL; /* TODO */ }
-SMTLIB2_YICES_DECLHANDLER(bvashr) { return NULL; /* TODO */ }
+SMTLIB2_YICES_DECLHANDLER(bvudiv) { 
 
+  return NULL; /* TODO */ 
+}
+
+SMTLIB2_YICES_DECLHANDLER(bvsdiv) { 
+  return NULL; /* TODO */ 
+}
+
+SMTLIB2_YICES_DECLHANDLER(bvsmod) { 
+  return NULL; /* TODO */ 
+}
+
+SMTLIB2_YICES_DECLHANDLER(bvurem) { 
+  return NULL; /* TODO */ 
+}
+
+SMTLIB2_YICES_DECLHANDLER(bvsrem) { 
+  return NULL; /* TODO */ 
+}
+
+SMTLIB2_YICES_DECLHANDLER(bvshl)  { 
+  return NULL; /* TODO */ 
+}
+
+SMTLIB2_YICES_DECLHANDLER(bvlshr) { 
+  return NULL; /* TODO */ 
+}
+
+SMTLIB2_YICES_DECLHANDLER(bvashr) { 
+  return NULL; /* TODO */ 
+}
 
 SMTLIB2_YICES_DECLHANDLER(extract)
 {
