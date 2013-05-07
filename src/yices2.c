@@ -1040,7 +1040,9 @@ static smtlib2_term smtlib2_yices_parser_mk_number(smtlib2_context ctx,
 SMTLIB2_YICES_DECLHANDLER(and)
 {
   term_t *terms = malloc(sizeof(term_t) * smtlib2_vector_size(args));
-  
+ 
+  assert(terms != NULL);
+ 
   for(int i = 0; i < smtlib2_vector_size(args); i++) {
     terms[i] = smtlib2_vector_at(args, i);
   }
