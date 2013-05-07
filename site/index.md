@@ -25,6 +25,22 @@ user-defined recursive data types. In addition to determining satisfiability, Z3
 to a formula \[[1]\], but that may be outside the scope of the project. Yices supports all of the theories in
 SMT-Comp as of 2006.
 
+### Results
+
+The result of this project was a simple composite solver that ran both
+Yices 2 and Z3 in parallel and reported the first answer for each query
+to the user. The input format was SMT-Lib 2. We also integrated Yices 2
+C API into a SMT-LIB 2 parser as a sub-task of this project.
+
+In addition, we performed extensive benchmarking of Yices 1 and Yices 2 
+and how they compare to Z3. We discovered that Yices 2 sometimes performs
+much better than Z3. Our goal was to make a composite solver 
+as feature rich  as Z3, but as occasionaly quick as Yices 2. Our final
+result only works on logics understood by both Yices 2 and Z3, but 
+it would not be difficult to have it fall back to Z3 if Yices fails.
+
+You can read the final paper [here][2].
+
 ### Schedule
 
 * #### Mid March
@@ -78,3 +94,4 @@ This section highlights web pages or papers we have referenced or have found hel
 1. [Towards Lightweight Integration of SMT Solvers][1]: Lapets, Mirzaei 2012
 
 [1]: http://www.cs.bu.edu/techreports/pdf/2012-017-smt-integration.pdf
+[2]: technical-report.pdf

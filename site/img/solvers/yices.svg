@@ -13,7 +13,7 @@
 
 <g id="gnuplot_canvas">
 
-<rect x="0" y="0" width="960" height="400" fill="none"/>
+<rect x="0" y="0" width="960" height="400" fill="#ffffff"/>
 <defs>
 
 	<circle id='gpDot' r='0.5' stroke-width='0.5'/>
@@ -31,7 +31,7 @@
 	<use xlink:href='#gpPt3' id='gpPt11' stroke='currentColor' transform='rotate(45)'/>
 	<use xlink:href='#gpPt11' id='gpPt12' fill='currentColor' stroke='none'/>
 </defs>
-<g style="fill:none; color:white; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
+<g style="fill:none; color:#FFFFFF; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 </g>
 <g style="fill:none; color:black; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 </g>
@@ -209,13 +209,13 @@
 		<text>unknown</text>
 	</g>
 	<path  d='M60.5,45.1 L60.5,274.7 L938.9,274.7 M938.9,45.1 M60.5,45.1  h0.01'/>	<g transform="translate(14.7,159.9) rotate(270)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
-		<text>Formulas Solved Within Timeout</text>
+		<text>% of Formulas Solved Within Timeout</text>
 	</g>
 	<g transform="translate(499.7,348.2)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
 		<text>Logics</text>
 	</g>
 	<g transform="translate(499.7,26.3)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
-		<text>Am Yices Nicht Neues</text>
+		<text>Comparing Yices 1.0 with Z3</text>
 	</g>
 </g>
 	<g id="gnuplot_plot_1" ><title>gnuplot_plot_1</title>
@@ -383,138 +383,138 @@
 	<g id="gnuplot_plot_17" ><title>gnuplot_plot_17</title>
 <g style="fill:none; color:red; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '229.8,274.7 242.7,274.7 242.7,237.4 229.8,237.4 '/>
-		<polygon fill = 'currentColor' points = '261.7,274.7 274.6,274.7 274.6,109.7 261.7,109.7 '/>
+		<polygon fill = 'currentColor' points = '229.8,274.7 242.7,274.7 242.7,266.6 229.8,266.6 '/>
+		<polygon fill = 'currentColor' points = '245.8,274.7 258.6,274.7 258.6,268.9 245.8,268.9 '/>
+		<polygon fill = 'currentColor' points = '261.7,274.7 274.6,274.7 274.6,95.5 261.7,95.5 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_18" ><title>gnuplot_plot_18</title>
 <g style="fill:none; color:green; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '229.8,237.5 242.7,237.5 242.7,219.0 229.8,219.0 '/>
-		<polygon fill = 'currentColor' points = '261.7,109.8 274.6,109.8 274.6,108.4 261.7,108.4 '/>
+		<polygon fill = 'currentColor' points = '229.8,266.7 242.7,266.7 242.7,264.3 229.8,264.3 '/>
+		<polygon fill = 'currentColor' points = '245.8,269.0 258.6,269.0 258.6,262.0 245.8,262.0 '/>
+		<polygon fill = 'currentColor' points = '261.7,95.6 274.6,95.6 274.6,93.2 261.7,93.2 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_19" ><title>gnuplot_plot_19</title>
 <g style="fill:none; color:blue; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '229.8,219.1 242.7,219.1 242.7,215.8 229.8,215.8 '/>
-		<polygon fill = 'currentColor' points = '261.7,108.5 274.6,108.5 274.6,107.9 261.7,107.9 '/>
+		<polygon fill = 'currentColor' points = '229.8,264.4 242.7,264.4 242.7,262.0 229.8,262.0 '/>
+		<polygon fill = 'currentColor' points = '245.8,262.1 258.6,262.1 258.6,262.0 245.8,262.0 '/>
+		<polygon fill = 'currentColor' points = '261.7,93.3 274.6,93.3 274.6,93.2 261.7,93.2 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_20" ><title>gnuplot_plot_20</title>
 <g style="fill:none; color:cyan; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '229.8,215.9 242.7,215.9 242.7,213.5 229.8,213.5 '/>
-		<polygon fill = 'currentColor' points = '261.7,108.0 274.6,108.0 274.6,107.9 261.7,107.9 '/>
+		<polygon fill = 'currentColor' points = '229.8,262.1 242.7,262.1 242.7,262.0 229.8,262.0 '/>
+		<polygon fill = 'currentColor' points = '245.8,262.1 258.6,262.1 258.6,258.5 245.8,258.5 '/>
+		<polygon fill = 'currentColor' points = '261.7,93.3 274.6,93.3 274.6,90.9 261.7,90.9 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_21" ><title>gnuplot_plot_21</title>
 <g style="fill:none; color:#157545; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '229.8,213.6 242.7,213.6 242.7,213.1 229.8,213.1 '/>
-		<polygon fill = 'currentColor' points = '261.7,108.0 274.6,108.0 274.6,107.9 261.7,107.9 '/>
+		<polygon fill = 'currentColor' points = '229.8,262.1 242.7,262.1 242.7,260.8 229.8,260.8 '/>
+		<polygon fill = 'currentColor' points = '245.8,258.6 258.6,258.6 258.6,257.4 245.8,257.4 '/>
+		<polygon fill = 'currentColor' points = '261.7,91.0 274.6,91.0 274.6,89.8 261.7,89.8 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_22" ><title>gnuplot_plot_22</title>
 <g style="fill:none; color:#000094; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '229.8,213.2 242.7,213.2 242.7,212.6 229.8,212.6 '/>
-		<polygon fill = 'currentColor' points = '261.7,108.0 274.6,108.0 274.6,107.9 261.7,107.9 '/>
+		<polygon fill = 'currentColor' points = '229.8,260.9 242.7,260.9 242.7,258.5 229.8,258.5 '/>
+		<polygon fill = 'currentColor' points = '245.8,257.5 258.6,257.5 258.6,257.4 245.8,257.4 '/>
+		<polygon fill = 'currentColor' points = '261.7,89.9 274.6,89.9 274.6,89.8 261.7,89.8 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_23" ><title>gnuplot_plot_23</title>
 <g style="fill:none; color:#FF9900; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '229.8,212.7 242.7,212.7 242.7,212.6 229.8,212.6 '/>
-		<polygon fill = 'currentColor' points = '261.7,108.0 274.6,108.0 274.6,107.9 261.7,107.9 '/>
+		<polygon fill = 'currentColor' points = '229.8,258.6 242.7,258.6 242.7,255.1 229.8,255.1 '/>
+		<polygon fill = 'currentColor' points = '245.8,257.5 258.6,257.5 258.6,256.2 245.8,256.2 '/>
+		<polygon fill = 'currentColor' points = '261.7,89.9 274.6,89.9 274.6,89.8 261.7,89.8 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_24" ><title>gnuplot_plot_24</title>
 <g style="fill:none; color:#0099A1; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '229.8,212.7 242.7,212.7 242.7,212.6 229.8,212.6 '/>
-		<polygon fill = 'currentColor' points = '261.7,108.0 274.6,108.0 274.6,107.9 261.7,107.9 '/>
-		<polygon fill = 'currentColor' points = '277.7,274.7 290.6,274.7 290.6,273.7 277.7,273.7 '/>
+		<polygon fill = 'currentColor' points = '229.8,255.2 242.7,255.2 242.7,253.9 229.8,253.9 '/>
+		<polygon fill = 'currentColor' points = '245.8,256.3 258.6,256.3 258.6,255.1 245.8,255.1 '/>
+		<polygon fill = 'currentColor' points = '261.7,89.9 274.6,89.9 274.6,89.8 261.7,89.8 '/>
+		<polygon fill = 'currentColor' points = '277.7,274.7 290.6,274.7 290.6,270.0 277.7,270.0 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_25" ><title>gnuplot_plot_25</title>
 <g style="fill:none; color:red; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '309.6,274.7 322.5,274.7 322.5,266.6 309.6,266.6 '/>
-		<polygon fill = 'currentColor' points = '325.6,274.7 338.5,274.7 338.5,268.9 325.6,268.9 '/>
-		<polygon fill = 'currentColor' points = '341.6,274.7 354.5,274.7 354.5,95.5 341.6,95.5 '/>
+		<polygon fill = 'currentColor' points = '309.6,274.7 322.5,274.7 322.5,237.4 309.6,237.4 '/>
+		<polygon fill = 'currentColor' points = '341.6,274.7 354.5,274.7 354.5,109.7 341.6,109.7 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_26" ><title>gnuplot_plot_26</title>
 <g style="fill:none; color:green; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '309.6,266.7 322.5,266.7 322.5,264.3 309.6,264.3 '/>
-		<polygon fill = 'currentColor' points = '325.6,269.0 338.5,269.0 338.5,262.0 325.6,262.0 '/>
-		<polygon fill = 'currentColor' points = '341.6,95.6 354.5,95.6 354.5,93.2 341.6,93.2 '/>
+		<polygon fill = 'currentColor' points = '309.6,237.5 322.5,237.5 322.5,219.0 309.6,219.0 '/>
+		<polygon fill = 'currentColor' points = '341.6,109.8 354.5,109.8 354.5,108.4 341.6,108.4 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_27" ><title>gnuplot_plot_27</title>
 <g style="fill:none; color:blue; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '309.6,264.4 322.5,264.4 322.5,262.0 309.6,262.0 '/>
-		<polygon fill = 'currentColor' points = '325.6,262.1 338.5,262.1 338.5,262.0 325.6,262.0 '/>
-		<polygon fill = 'currentColor' points = '341.6,93.3 354.5,93.3 354.5,93.2 341.6,93.2 '/>
+		<polygon fill = 'currentColor' points = '309.6,219.1 322.5,219.1 322.5,215.8 309.6,215.8 '/>
+		<polygon fill = 'currentColor' points = '341.6,108.5 354.5,108.5 354.5,107.9 341.6,107.9 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_28" ><title>gnuplot_plot_28</title>
 <g style="fill:none; color:cyan; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '309.6,262.1 322.5,262.1 322.5,262.0 309.6,262.0 '/>
-		<polygon fill = 'currentColor' points = '325.6,262.1 338.5,262.1 338.5,258.5 325.6,258.5 '/>
-		<polygon fill = 'currentColor' points = '341.6,93.3 354.5,93.3 354.5,90.9 341.6,90.9 '/>
+		<polygon fill = 'currentColor' points = '309.6,215.9 322.5,215.9 322.5,213.5 309.6,213.5 '/>
+		<polygon fill = 'currentColor' points = '341.6,108.0 354.5,108.0 354.5,107.9 341.6,107.9 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_29" ><title>gnuplot_plot_29</title>
 <g style="fill:none; color:#157545; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '309.6,262.1 322.5,262.1 322.5,260.8 309.6,260.8 '/>
-		<polygon fill = 'currentColor' points = '325.6,258.6 338.5,258.6 338.5,257.4 325.6,257.4 '/>
-		<polygon fill = 'currentColor' points = '341.6,91.0 354.5,91.0 354.5,89.8 341.6,89.8 '/>
+		<polygon fill = 'currentColor' points = '309.6,213.6 322.5,213.6 322.5,213.1 309.6,213.1 '/>
+		<polygon fill = 'currentColor' points = '341.6,108.0 354.5,108.0 354.5,107.9 341.6,107.9 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_30" ><title>gnuplot_plot_30</title>
 <g style="fill:none; color:#000094; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '309.6,260.9 322.5,260.9 322.5,258.5 309.6,258.5 '/>
-		<polygon fill = 'currentColor' points = '325.6,257.5 338.5,257.5 338.5,257.4 325.6,257.4 '/>
-		<polygon fill = 'currentColor' points = '341.6,89.9 354.5,89.9 354.5,89.8 341.6,89.8 '/>
+		<polygon fill = 'currentColor' points = '309.6,213.2 322.5,213.2 322.5,212.6 309.6,212.6 '/>
+		<polygon fill = 'currentColor' points = '341.6,108.0 354.5,108.0 354.5,107.9 341.6,107.9 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_31" ><title>gnuplot_plot_31</title>
 <g style="fill:none; color:#FF9900; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '309.6,258.6 322.5,258.6 322.5,255.1 309.6,255.1 '/>
-		<polygon fill = 'currentColor' points = '325.6,257.5 338.5,257.5 338.5,256.2 325.6,256.2 '/>
-		<polygon fill = 'currentColor' points = '341.6,89.9 354.5,89.9 354.5,89.8 341.6,89.8 '/>
+		<polygon fill = 'currentColor' points = '309.6,212.7 322.5,212.7 322.5,212.6 309.6,212.6 '/>
+		<polygon fill = 'currentColor' points = '341.6,108.0 354.5,108.0 354.5,107.9 341.6,107.9 '/>
 	</g>
 </g>
 	</g>
 	<g id="gnuplot_plot_32" ><title>gnuplot_plot_32</title>
 <g style="fill:none; color:#0099A1; stroke:currentColor; stroke-width:1.00; stroke-linecap:butt; stroke-linejoin:miter">
 	<g style = 'stroke:none; shape-rendering:crispEdges'>
-		<polygon fill = 'currentColor' points = '309.6,255.2 322.5,255.2 322.5,253.9 309.6,253.9 '/>
-		<polygon fill = 'currentColor' points = '325.6,256.3 338.5,256.3 338.5,255.1 325.6,255.1 '/>
-		<polygon fill = 'currentColor' points = '341.6,89.9 354.5,89.9 354.5,89.8 341.6,89.8 '/>
-		<polygon fill = 'currentColor' points = '357.6,274.7 370.4,274.7 370.4,270.0 357.6,270.0 '/>
+		<polygon fill = 'currentColor' points = '309.6,212.7 322.5,212.7 322.5,212.6 309.6,212.6 '/>
+		<polygon fill = 'currentColor' points = '341.6,108.0 354.5,108.0 354.5,107.9 341.6,107.9 '/>
+		<polygon fill = 'currentColor' points = '357.6,274.7 370.4,274.7 370.4,273.7 357.6,273.7 '/>
 	</g>
 </g>
 	</g>
@@ -1023,10 +1023,10 @@
 		<text>QF_AX</text>
 	</g>
 	<g transform="translate(354.0,333.3)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
-		<text>QF_AUFBV</text>
+		<text>QF_BV</text>
 	</g>
 	<g transform="translate(274.1,333.3)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
-		<text>QF_BV</text>
+		<text>QF_AUFBV</text>
 	</g>
 	<g transform="translate(194.3,333.3)" style="stroke:none; fill:black; font-family:arial; font-size:10.00pt; text-anchor:middle">
 		<text>AUFLIRA</text>
