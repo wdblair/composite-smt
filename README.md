@@ -2,7 +2,12 @@
 
 Experiments and results are in ./logs
 
-Helpful scripts are in ./scripts
+Helpful scripts we used are in ./scripts
+
+### Paper
+
+A PDF copy and LaTex copy of the technical
+report is located in the report director.
 
 ### Website
 
@@ -14,3 +19,4 @@ To build it, run
 
 To make a page on the site, just create a new markdown file in the
 site folder. 
+
