@@ -25,4 +25,7 @@ site folder.
 ### Composite Solver
 
 Our  solver with  instructions and  tests can  be found  in  the ./src
-directory
+directory with instructions on how to run it.
+
+The portion of the SMT-LIB2 parser we had to modify to integrate Yices 2
+is found in src/yices2.c.
