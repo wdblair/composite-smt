@@ -204,8 +204,11 @@ int main (int argc, char *argv[]) {
   fclose(yicesfile);
 
   //Set up our in process sockets
-
+  
   context = zmq_ctx_new ();
+
+  //Setup the controller as the subscriber for events
+  
   void *responder = zmq_socket (context, ZMQ_SUB);
   int rc = zmq_bind (responder, "inproc://controller");
 
@@ -214,6 +217,8 @@ int main (int argc, char *argv[]) {
   //Set to receive all messages
   int sk = zmq_setsockopt (responder, ZMQ_SUBSCRIBE, NULL, 0);
   assert (sk == 0);
+
+  //Set up our publishers (Solvers)
   
   void *skz3 = zmq_socket(context, ZMQ_PUB);
   rc = zmq_connect(skz3, "inproc://controller");
