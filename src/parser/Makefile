@@ -34,8 +34,6 @@ libsmtlib2parser.a: $(OBJECTS)
 	ar rc $@ $(OBJECTS)
 	ranlib $@
 
-
-
 yices2.o: ../yices2.c
 	$(CC) $(CFLAGS) -c -o $@ $<
 
