@@ -207,25 +207,25 @@ int main (int argc, char *argv[]) {
   
   context = zmq_ctx_new ();
 
-  //Setup the controller as the subscriber for events
+  //Setup the controller as the sink
   
-  void *responder = zmq_socket (context, ZMQ_SUB);
+  void *responder = zmq_socket (context, ZMQ_PULL);
   int rc = zmq_bind (responder, "inproc://controller");
-
+  
   assert (rc == 0);
-  
-  //Set to receive all messages
-  int sk = zmq_setsockopt (responder, ZMQ_SUBSCRIBE, NULL, 0);
-  assert (sk == 0);
 
-  //Set up our publishers (Solvers)
+  //Set to receive all messages
+  //int sk = zmq_setsockopt (responder, ZMQ_SUBSCRIBE, NULL, 0);
+  //assert (sk == 0);
+
+  //Set up our workers (Solvers)
   
-  void *skz3 = zmq_socket(context, ZMQ_PUB);
+  void *skz3 = zmq_socket(context, ZMQ_PUSH);
   rc = zmq_connect(skz3, "inproc://controller");
   
   assert (rc == 0);
 
-  void *skyices = zmq_socket(context, ZMQ_PUB);
+  void *skyices = zmq_socket(context, ZMQ_PUSH);
   rc = zmq_connect(skyices, "inproc://controller");
 
   assert (rc == 0);
